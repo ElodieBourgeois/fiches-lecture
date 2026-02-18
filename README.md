@@ -18,10 +18,10 @@ Les pages `recherche/index.qmd`, `enseignement/index.qmd`, `conferences/index.qm
 
 Si vous ajoutez un fichier `.qmd` dans les dossiers ci-dessous, il apparaitra automatiquement dans la section correspondante:
 
-- `recherche/projets/`
-- `enseignement/experiences/`
-- `conferences/evenements/`
-- `lectures/notes/`
+- `recherche/elements/`
+- `enseignement/elements/`
+- `conferences/elements/`
+- `lectures/elements/`
 
 ## Demarrage rapide
 
@@ -36,15 +36,15 @@ Si vous ajoutez un fichier `.qmd` dans les dossiers ci-dessous, il apparaitra au
 Exemple (nouveau projet de recherche):
 
 1. Copiez `gabarits/modele-recherche.qmd`.
-2. Placez la copie dans `recherche/projets/`.
+2. Placez la copie dans `recherche/elements/`.
 3. Renommez le fichier (ex: `2026-03-10-mon-projet.qmd`).
 4. Editez le contenu.
 
 Meme logique pour:
 
-- `gabarits/modele-enseignement.qmd` -> `enseignement/experiences/`
-- `gabarits/modele-conference.qmd` -> `conferences/evenements/`
-- `gabarits/modele-note-lecture.qmd` -> `lectures/notes/`
+- `gabarits/modele-enseignement.qmd` -> `enseignement/elements/`
+- `gabarits/modele-conference.qmd` -> `conferences/elements/`
+- `gabarits/modele-note-lecture.qmd` -> `lectures/elements/`
 
 ## Deploiement sur Posit Connect Cloud
 

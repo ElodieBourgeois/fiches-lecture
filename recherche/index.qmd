@@ -1,7 +1,7 @@
 ---
 title: "Travaux de recherche"
 listing:
-  contents: projets/*.qmd
+  contents: elements/*.qmd
   type: table
   fields: [title, date, categories, resume]
   sort: "date desc"
@@ -10,7 +10,7 @@ listing:
   page-size: 10
 ---
 
-Ajoutez un fichier `.qmd` dans `recherche/projets/` pour qu'il apparaisse automatiquement ici.
+Ajoutez un fichier `.qmd` dans `recherche/elements/` pour qu'il apparaisse automatiquement ici.
 
 ## Exemples de categories (filtres)
 
