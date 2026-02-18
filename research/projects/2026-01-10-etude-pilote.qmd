@@ -1,0 +1,23 @@
+---
+title: "Étude pilote sur l'activité physique en milieu universitaire"
+date: 2026-01-10
+categories: [activité physique, étudiants]
+description: "Projet pilote évaluant l'adhérence à un programme de 8 semaines."
+---
+
+## Objectif
+
+Décrire l'objectif de votre projet.
+
+## Méthodes
+
+Résumez le devis, l'échantillon et les analyses.
+
+## Résultats clés
+
+- Résultat 1
+- Résultat 2
+
+## Statut
+
+En collecte de données.

@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Merriweather:wght@700&display=swap');
+
+$body-bg: #f8fafc;
+$body-color: #1f2937;
+$link-color: #0f766e;
+$primary: #0f766e;
+$secondary: #334155;
+$navbar-bg: #ffffff;
+
+/*-- scss:rules --*/
+h1, h2, h3, .navbar-brand {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #e2f3f1, #ffffff);
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-note {
+  border-left: 4px solid $primary;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+}

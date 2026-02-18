@@ -1,0 +1,13 @@
+---
+title: "Conférences et communications"
+listing:
+  contents: events/*.qmd
+  type: table
+  fields: [title, date, categories, description]
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 10
+---
+
+Ajoutez un fichier `.qmd` dans `talks/events/` pour qu'il apparaisse automatiquement ici.

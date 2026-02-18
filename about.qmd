@@ -1,0 +1,24 @@
+---
+title: "Profil"
+---
+
+## Biographie courte
+
+Rédigez ici une bio de 100-150 mots.
+
+## Formation
+
+- Ph. D. en kinésiologie, Université X (2024-...)
+- M. Sc. en kinésiologie, Université Y (2022-2024)
+
+## Compétences
+
+- Analyse de données: R, R Markdown, Quarto
+- Méthodes: statistiques inférentielles, modèles mixtes, revues systématiques
+- Outils: GitHub, Posit Connect Cloud
+
+## Contact
+
+- Courriel: prenom.nom@universite.ca
+- ORCID: 0000-0000-0000-0000
+- Google Scholar: lien
