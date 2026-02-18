@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "research/**/*.qmd"
+    - "teaching/**/*.qmd"
+    - "talks/**/*.qmd"
+    - "reading/**/*.qmd"
+    - "!templates/*.qmd"
 
 website:
   title: "Portfolio académique"

@@ -1,0 +1,15 @@
+---
+title: "Titre de l'expérience d'enseignement"
+date: 2026-01-01
+categories: [cours, niveau]
+description: "Résumé de votre rôle pédagogique."
+---
+
+## Rôle
+
+## Contributions
+
+- 
+
+## Apprentissages
+
