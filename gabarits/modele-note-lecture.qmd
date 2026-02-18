@@ -1,0 +1,29 @@
+---
+title: "Auteur et al. (annee) - Titre"
+date: 2026-01-01
+cote: "4/5"
+categories: [activite physique, cognition]
+resume: "Type d'etude et population."
+---
+
+<!-- Exemples: sommeil, douleur, readaptation, statistiques, revue systematique -->
+
+## Reference
+
+## Question de recherche
+
+## Methodes
+
+## Resultats cles
+
+- 
+
+## Forces
+
+- 
+
+## Limites
+
+- 
+
+## Utilite pour mon projet

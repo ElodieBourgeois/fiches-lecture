@@ -1,0 +1,64 @@
+# Template - Site academique Quarto (maitrise/doctorat en kinesiologie)
+
+Template pret a utiliser pour creer un site personnel d'etudiante/etudiant chercheur et le deployer sur Posit Connect Cloud.
+
+## Ce que contient le template
+
+- `index.qmd` : page d'accueil
+- `profil.qmd` : profil academique
+- `recherche/` : projets et travaux de recherche
+- `enseignement/` : experiences d'enseignement
+- `conferences/` : conferences/communications
+- `lectures/` : fiches de lecture et notes d'articles
+- `gabarits/` : modeles `.qmd` a copier
+
+## Principe important: ajout automatique des pages
+
+Les pages `recherche/index.qmd`, `enseignement/index.qmd`, `conferences/index.qmd` et `lectures/index.qmd` utilisent des **listings**.
+
+Si vous ajoutez un fichier `.qmd` dans les dossiers ci-dessous, il apparaitra automatiquement dans la section correspondante:
+
+- `recherche/elements/`
+- `enseignement/elements/`
+- `conferences/elements/`
+- `lectures/elements/`
+
+## Demarrage rapide
+
+1. Creez un repo GitHub a partir de ce template.
+2. Clonez le repo localement.
+3. Ouvrez le projet dans RStudio.
+4. Modifiez `index.qmd` et `profil.qmd` avec vos infos.
+5. Lancez `quarto preview` pour voir le site.
+
+## Ajouter un nouvel element
+
+Exemple (nouveau projet de recherche):
+
+1. Copiez `gabarits/modele-recherche.qmd`.
+2. Placez la copie dans `recherche/elements/`.
+3. Renommez le fichier (ex: `2026-03-10-mon-projet.qmd`).
+4. Editez le contenu.
+
+Meme logique pour:
+
+- `gabarits/modele-enseignement.qmd` -> `enseignement/elements/`
+- `gabarits/modele-conference.qmd` -> `conferences/elements/`
+- `gabarits/modele-note-lecture.qmd` -> `lectures/elements/`
+
+## Deploiement sur Posit Connect Cloud
+
+1. Poussez votre repo sur GitHub.
+2. Connectez-vous a Posit Connect Cloud.
+3. Creez un nouveau contenu a partir de GitHub.
+4. Selectionnez ce repo et la branche principale.
+5. Deployez.
+
+A chaque `git push`, vous pouvez relancer un redeploiement dans Connect Cloud.
+
+## Commandes utiles
+
+```bash
+quarto preview   # apercu local
+quarto render    # rendu complet
+```

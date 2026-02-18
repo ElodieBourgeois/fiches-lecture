@@ -1,0 +1,25 @@
+---
+title: "Accueil"
+---
+
+:::{.hero}
+# Nom de l'etudiante ou de l'etudiant
+
+Etudiante/etudiant a la maitrise ou au doctorat en kinesiologie.
+
+- Axe de recherche 1
+- Axe de recherche 2
+- Methodologie principale
+:::
+
+## Bienvenue
+
+Ce site presente mon profil academique, mes travaux, mes activites d'enseignement et mes conferences.
+
+## Acces rapide
+
+- [Profil](profil.qmd)
+- [Travaux de recherche](recherche/index.qmd)
+- [Enseignement](enseignement/index.qmd)
+- [Conferences](conferences/index.qmd)
+- [Articles lus et fiches](lectures/index.qmd)

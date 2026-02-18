@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "recherche/**/*.qmd"
+    - "enseignement/**/*.qmd"
+    - "conferences/**/*.qmd"
+    - "lectures/**/*.qmd"
+    - "!gabarits/*.qmd"
+
+website:
+  title: "Portfolio academique"
+  site-url: "https://example.posit.cloud"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: profil.qmd
+        text: Profil
+      - href: recherche/index.qmd
+        text: Recherche
+      - href: enseignement/index.qmd
+        text: Enseignement
+      - href: conferences/index.qmd
+        text: Conferences
+      - href: lectures/index.qmd
+        text: Lectures
+    right:
+      - icon: github
+        href: https://github.com/votre-utilisateur/votre-repo
+        aria-label: GitHub
+  page-footer:
+    left: "Site academique Quarto"
+    right: "Construit avec Quarto"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    toc: true
+    toc-depth: 2
+    code-copy: true
+    smooth-scroll: true
+
+lang: fr
+execute:
+  freeze: auto

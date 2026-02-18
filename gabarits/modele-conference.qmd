@@ -1,0 +1,14 @@
+---
+title: "Titre de la conference"
+date: 2026-01-01
+categories: [communication orale, congres national]
+resume: "Resume de la communication presentee."
+---
+
+<!-- Exemples: affiche, symposium, congres international, vulgarisation -->
+
+## Evenement
+
+## Resume
+
+## Lien

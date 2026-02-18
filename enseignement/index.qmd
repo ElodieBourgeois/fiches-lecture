@@ -1,0 +1,25 @@
+---
+title: "Enseignement"
+listing:
+  contents: elements/*.qmd
+  type: table
+  fields: [title, date, categories, resume]
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 10
+---
+
+Ajoutez un fichier `.qmd` dans `enseignement/elements/` pour qu'il apparaisse automatiquement ici.
+
+## Exemples de categories (filtres)
+
+Utilisez des categories stables pour pouvoir filtrer par sujet ou type:
+
+- laboratoire
+- cours magistral
+- premier cycle
+- cycles superieurs
+- evaluation
+- mentorat
+- pedagogie active
