@@ -1,0 +1,13 @@
+---
+title: "Revue de litterature"
+listing:
+  contents: notes/*.qmd
+  type: table
+  fields: [title, date, cote, categories, resume]
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 15
+---
+
+Ajoutez un fichier `.qmd` dans `lectures/notes/` pour cataloguer les articles lus.

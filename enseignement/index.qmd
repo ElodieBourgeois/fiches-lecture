@@ -3,11 +3,11 @@ title: "Enseignement"
 listing:
   contents: experiences/*.qmd
   type: table
-  fields: [title, date, categories, description]
+  fields: [title, date, categories, resume]
   sort: "date desc"
   filter-ui: true
   sort-ui: true
   page-size: 10
 ---
 
-Ajoutez un fichier `.qmd` dans `teaching/experiences/` pour qu'il apparaisse automatiquement ici.
+Ajoutez un fichier `.qmd` dans `enseignement/experiences/` pour qu'il apparaisse automatiquement ici.

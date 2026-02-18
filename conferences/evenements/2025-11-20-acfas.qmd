@@ -1,0 +1,18 @@
+---
+title: "Communication orale - ACFAS"
+date: 2025-11-20
+categories: [congres, communication orale]
+resume: "Effets d'une intervention motrice de 12 semaines sur la capacite fonctionnelle."
+---
+
+## Evenement
+
+Nom du congres, ville, pays.
+
+## Resume
+
+Decrivez brievement le contenu presente.
+
+## Lien
+
+Ajoutez un DOI, un lien vers les diapositives ou une affiche.

@@ -1,0 +1,13 @@
+---
+title: "Travaux de recherche"
+listing:
+  contents: projets/*.qmd
+  type: table
+  fields: [title, date, categories, resume]
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 10
+---
+
+Ajoutez un fichier `.qmd` dans `recherche/projets/` pour qu'il apparaisse automatiquement ici.

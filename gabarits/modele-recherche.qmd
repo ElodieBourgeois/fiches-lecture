@@ -1,0 +1,18 @@
+---
+title: "Titre du projet"
+date: 2026-01-01
+categories: [mot-cle1, mot-cle2]
+resume: "Resume en une phrase du projet."
+---
+
+## Objectif
+
+## Methodes
+
+## Resultats cles
+
+- 
+
+## Statut
+
+En cours / soumis / publie.

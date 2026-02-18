@@ -1,0 +1,28 @@
+---
+title: "Auteur et al. (annee) - Titre"
+date: 2026-01-01
+cote: "4/5"
+categories: [theme1, theme2]
+resume: "Type d'etude et population."
+---
+
+## Reference
+
+## Question de recherche
+
+## Methodes
+
+## Resultats cles
+
+- 
+
+## Forces
+
+- 
+
+## Limites
+
+- 
+
+## Utilite pour mon projet
+
