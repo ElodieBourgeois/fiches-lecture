@@ -11,3 +11,16 @@ listing:
 ---
 
 Ajoutez un fichier `.qmd` dans `recherche/projets/` pour qu'il apparaisse automatiquement ici.
+
+## Exemples de categories (filtres)
+
+Utilisez des categories coherentes pour faciliter le filtrage:
+
+- activite physique
+- performance sportive
+- biomecanique
+- neurosciences
+- readaptation
+- vieillissement
+- sante mentale
+- methodologie

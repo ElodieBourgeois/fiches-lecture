@@ -11,3 +11,15 @@ listing:
 ---
 
 Ajoutez un fichier `.qmd` dans `enseignement/experiences/` pour qu'il apparaisse automatiquement ici.
+
+## Exemples de categories (filtres)
+
+Utilisez des categories stables pour pouvoir filtrer par sujet ou type:
+
+- laboratoire
+- cours magistral
+- premier cycle
+- cycles superieurs
+- evaluation
+- mentorat
+- pedagogie active

@@ -2,9 +2,11 @@
 title: "Auteur et al. (annee) - Titre"
 date: 2026-01-01
 cote: "4/5"
-categories: [theme1, theme2]
+categories: [activite physique, cognition]
 resume: "Type d'etude et population."
 ---
+
+<!-- Exemples: sommeil, douleur, readaptation, statistiques, revue systematique -->
 
 ## Reference
 
@@ -25,4 +27,3 @@ resume: "Type d'etude et population."
 - 
 
 ## Utilite pour mon projet
-

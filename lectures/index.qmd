@@ -11,3 +11,17 @@ listing:
 ---
 
 Ajoutez un fichier `.qmd` dans `lectures/notes/` pour cataloguer les articles lus.
+
+## Exemples de categories (filtres)
+
+Categories recommandees pour filtrer par sujet:
+
+- activite physique
+- comportement sedentaire
+- cognition
+- sommeil
+- douleur
+- readaptation
+- prevention des blessures
+- statistiques
+- revue systematique

@@ -11,3 +11,15 @@ listing:
 ---
 
 Ajoutez un fichier `.qmd` dans `conferences/evenements/` pour qu'il apparaisse automatiquement ici.
+
+## Exemples de categories (filtres)
+
+Choisissez 1 a 3 categories par entree:
+
+- communication orale
+- affiche
+- symposium
+- congres national
+- congres international
+- vulgarisation
+- invitation
