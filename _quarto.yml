@@ -39,6 +39,7 @@ format:
   html:
     theme:
       light: [cosmo, styles.scss]
+      dark: [darkly, styles-dark.scss]
     toc: true
     toc-depth: 2
     code-copy: true
