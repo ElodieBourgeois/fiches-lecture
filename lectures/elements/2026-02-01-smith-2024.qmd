@@ -1,36 +1,79 @@
 ---
-title: "Smith et al. (2024) - Physical Activity and Cognitive Performance"
-date: 2026-02-01
-cote: "4/5"
-categories: [activite physique, cognition]
-resume: "Essai controle randomise chez des adultes jeunes."
+title: "Computer Prompt Software to Reduce Sedentary Behavior and Promote Physical Activity Among Desk-Based Workers: A Systematic Review"
+author: Wendell C. Taylor
+annee_publication: 2021
+doi: "10.1177/00187208211034271"
+date_lecture: 2026-02-01
+categories: [PPSHV, travail, sédentarité]
+resume: Computer Prompt Software
 ---
 
-## Reference
+## Référence complète
 
-Smith, A., ... (2024). *Journal of Applied Physiology*.
+```{r}
+#| label: ref-apa
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
 
-## Question de recherche
+script_candidates <- c(
+  "scripts/apa_reference.R",
+  "../scripts/apa_reference.R",
+  "../../scripts/apa_reference.R"
+)
 
-Quel est l'objectif principal de l'etude?
+script_path <- script_candidates[file.exists(script_candidates)][1]
 
-## Methodes
+if (is.na(script_path)) {
+  cat("Script introuvable: scripts/apa_reference.R\n")
+} else {
+  source(script_path)
 
-Type d'etude, echantillon, outils de mesure.
+  metadata <- tryCatch(rmarkdown::metadata, error = function(e) list())
+  doi <- if (!is.null(metadata$doi)) metadata$doi else NULL
 
-## Resultats cles
+  print_apa7_from_doi(doi)
+}
+```
 
-- Point 1
-- Point 2
+## Résumé
 
-## Forces
+### Objectif de lecture
 
-- Force 1
+Objectif : Avoir plus de connaissance sur les PPSHV qui ont été étudiées
 
-## Limites
+### Messages clés
 
-- Limite 1
 
-## Utilite pour mon projet
+### Utilité pour mon projet
 
-Expliquez en 3-4 lignes comment cet article nourrit votre problematique.
+
+### À vérifier ensuite
+
+
+## Citations
+
+### p.891-892
+
+Donnée de 2011, on est maintenant en 2026 et qu’est-ce qui se passe du côté des télétravailleurs ?
+
+> During the past five decades, the daily occupation- related energy expenditure has decreased by >100 calories due to automation, computer use, and prolonged sitting. This decrease in kilocalorie expenditure at work parallels the rise of the obesity crisis (Church et al., 2011).
+
+### p.892
+
+PPSHV direct
+
+> Workplace interventions can influence the health behaviors of large proportions of the world’s population (Shrestha et al., 2015). The workplace is an optimal venue for health- promotion interventions because it has established structures, employees can be reached for extended periods of time, multiple tools and resources can be mobilized, masses of people can be reached, estab lished communication channels can be used, and environments can be modified (Pronk, 2009).
+
+Est-ce qu’il y a des recommandations dans la fréquence des interruptions du temps assis ? Qu’est-ce qu’on veut dire par social recognition ?
+
+> Furthermore, fre quent interruptions in sitting have been linked to a range of improved health indices (Dunstan et al., 2011; Healy et al., 2008, 2011; Reid et al., 2018) It is imperative to provide opportunities with incentives for desk- based workers to move more at work. To enhance opportunities, incentives such as immediate feedback to encourage behavioral change (Mainsbridge et al., 2014, 2018), social recognition (Taylor et al., 2016), and a health- promoting organizational culture that supports and reinforces positive health behaviors can make a difference (Moradi & Wiberg, 2013; Taylor et al., 2018).
+
+Ça sonne intense, j’aimerais aller voir les études pour mieux comprendre ces énoncés. À quel point c’est mieux d’être assis que debout ?
+
+> However, there are several concerns with ergo nomic adaptations. For example, with sit- to- stand workstations, it has been documented that prolonged standing is detrimental to the human system (Mula, 2018). Prolonged stand ing predicts low back pain (Andersen et al., 2007).
+
+Importance de l’évaluation post programme
+
+> In addition, behavioral changes may not be sustained after the novelty of the equipment wears off (Garrett et al., 2019; Shrestha et al., 2015, 2018).

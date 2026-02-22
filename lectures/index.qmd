@@ -1,27 +1,18 @@
 ---
-title: "Revue de litterature"
+title: "Revue de littérature"
 listing:
   contents: elements/*.qmd
   type: table
-  fields: [title, date, cote, categories, resume]
-  sort: "date desc"
+  fields: [date_lecture, title, author, annee_publication]
+  field-display-names:
+    date_lecture: Lecture
+    title: Titre
+    author: Auteur
+    annee_publication: Publication
+  sort: "date_lecture desc"
   filter-ui: true
-  sort-ui: true
+  categories: true
   page-size: 15
 ---
 
 Ajoutez un fichier `.qmd` dans `lectures/elements/` pour cataloguer les articles lus.
-
-## Exemples de categories (filtres)
-
-Categories recommandees pour filtrer par sujet:
-
-- activite physique
-- comportement sedentaire
-- cognition
-- sommeil
-- douleur
-- readaptation
-- prevention des blessures
-- statistiques
-- revue systematique

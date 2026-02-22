@@ -10,7 +10,7 @@ project:
     - "!gabarits/*.qmd"
 
 website:
-  title: "Portfolio academique"
+  title: "Portfolio académique"
   site-url: "https://example.posit.cloud"
   page-navigation: true
   navbar:
@@ -24,7 +24,7 @@ website:
       - href: enseignement/index.qmd
         text: Enseignement
       - href: conferences/index.qmd
-        text: Conferences
+        text: Conférences
       - href: lectures/index.qmd
         text: Lectures
     right:
@@ -32,11 +32,13 @@ website:
         href: https://github.com/votre-utilisateur/votre-repo
         aria-label: GitHub
   page-footer:
-    left: "Site academique Quarto"
+    left: "Site académique Quarto"
     right: "Construit avec Quarto"
 
 format:
   html:
+    template-partials:
+      - _partials/title-metadata.html
     theme:
       light: [cosmo, styles.scss]
       dark: [darkly, styles-dark.scss]
