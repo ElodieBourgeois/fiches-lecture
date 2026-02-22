@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "locale": "fr_CA",
+  "platform": "4.5.2",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "index.qmd",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "_freeze/lectures/elements/2026-02-01-smith-2024/execute-results/html.json": {
+      "checksum": "61e4f445f259744dab841ac7dc8a5d8f"
+    },
+    "_freeze/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "_freeze/site_libs/quarto-listing/list.min.js": {
+      "checksum": "d9fe78988e4cf7a26ac9e06aca9ce679"
+    },
+    "_freeze/site_libs/quarto-listing/quarto-listing.js": {
+      "checksum": "919f171782f2658435097266e834d316"
+    },
+    "_partials/title-metadata.html": {
+      "checksum": "cb6670af071d9691954c53c5a7860957"
+    },
+    "_quarto.yml": {
+      "checksum": "58ca36031ae2133e2ce74e61f9da0570"
+    },
+    "_site/conferences/elements/2025-11-20-acfas.html": {
+      "checksum": "444d7ff4a6e3893a781b94cea53286b3"
+    },
+    "_site/conferences/index.html": {
+      "checksum": "1d600da9bf4219217c2d5ca8fc23c66a"
+    },
+    "_site/enseignement/elements/2025-09-01-kin701.html": {
+      "checksum": "640e2a6a64cae283b2c07d39cdc027fe"
+    },
+    "_site/enseignement/index.html": {
+      "checksum": "ec395649bb0e6b772ddfa533c809d17e"
+    },
+    "_site/index.html": {
+      "checksum": "c9d326d8a5138b52e7178c04c1d1fd82"
+    },
+    "_site/lectures/elements/2026-02-01-smith-2024.html": {
+      "checksum": "b902091e69dcf5f8e09941a644ffea07"
+    },
+    "_site/lectures/index.html": {
+      "checksum": "9366843a6d09370df5d8316cfec439aa"
+    },
+    "_site/listings.json": {
+      "checksum": "91c5dd76610cb459e8a13801cc04b888"
+    },
+    "_site/profil.html": {
+      "checksum": "58c5a41a6e2bf1d4a9947aba8a28e770"
+    },
+    "_site/recherche/elements/2026-01-10-etude-pilote.html": {
+      "checksum": "54e51f57a351db290e1a69fb9e07bd28"
+    },
+    "_site/recherche/index.html": {
+      "checksum": "23e7126b773ab91a8a6775baa698d597"
+    },
+    "_site/robots.txt": {
+      "checksum": "f9121fa30d6631c9a76e3c04a10f7876"
+    },
+    "_site/search.json": {
+      "checksum": "dfd4e220975813097f801631de14d9a4"
+    },
+    "_site/site_libs/bootstrap/bootstrap-c83e85d8e6cfddeff61ea603e46722ed.min.css": {
+      "checksum": "c83e85d8e6cfddeff61ea603e46722ed"
+    },
+    "_site/site_libs/bootstrap/bootstrap-dark-eab874aaa0c3124cd80f39827c7194eb.min.css": {
+      "checksum": "eab874aaa0c3124cd80f39827c7194eb"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "886da841d7421705f715f600c5ff11bb"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "efe54401ef52214fd3b701e23ff88c5f"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "_site/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "_site/site_libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "_site/site_libs/quarto-html/axe/axe-check.js": {
+      "checksum": "b4f6a44157bfe20b68b69aabf2f8125d"
+    },
+    "_site/site_libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "_site/site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css": {
+      "checksum": "587c61ba64f3a5504c4d52d930310e48"
+    },
+    "_site/site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css": {
+      "checksum": "b758ccaa5987ceb1b75504551e579abf"
+    },
+    "_site/site_libs/quarto-html/quarto.js": {
+      "checksum": "a65a7780c10232b6515cdfb8beaaa221"
+    },
+    "_site/site_libs/quarto-html/tabsets/tabsets.js": {
+      "checksum": "e8d6a8862b33ccc461f8fd532e05b365"
+    },
+    "_site/site_libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "_site/site_libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "_site/site_libs/quarto-html/zenscroll-min.js": {
+      "checksum": "717c95813ddfc3d41e98c26642fc1372"
+    },
+    "_site/site_libs/quarto-listing/list.min.js": {
+      "checksum": "d9fe78988e4cf7a26ac9e06aca9ce679"
+    },
+    "_site/site_libs/quarto-listing/quarto-listing.js": {
+      "checksum": "919f171782f2658435097266e834d316"
+    },
+    "_site/site_libs/quarto-nav/headroom.min.js": {
+      "checksum": "ace0360e576db9b6e7df48ac68ddbbf4"
+    },
+    "_site/site_libs/quarto-nav/quarto-nav.js": {
+      "checksum": "12d334846b27bdb493298c08277bdf7f"
+    },
+    "_site/site_libs/quarto-search/autocomplete.umd.js": {
+      "checksum": "b514204f2ef1ca7a8e2ad4579d263504"
+    },
+    "_site/site_libs/quarto-search/fuse.min.js": {
+      "checksum": "de7d60e4a6881074275feca14b84a49d"
+    },
+    "_site/site_libs/quarto-search/quarto-search.js": {
+      "checksum": "bb16b7e73be13eba97c99d25b2a476b3"
+    },
+    "_site/sitemap.xml": {
+      "checksum": "a203094b812efb7f7d26d31f1ec8b8ee"
+    },
+    "conferences/elements/2025-11-20-acfas.qmd": {
+      "checksum": "e00145a7ab2587dd663950d3428420e4"
+    },
+    "conferences/index.qmd": {
+      "checksum": "20e35a0b22bde4c71bda2c4703b4cd81"
+    },
+    "enseignement/elements/2025-09-01-kin701.qmd": {
+      "checksum": "a5d12b20855ac6c71b3be7b5336f1e6b"
+    },
+    "enseignement/index.qmd": {
+      "checksum": "e8eb8bbd1db614cf1118c6538cd4f6cc"
+    },
+    "finito": {
+      "checksum": "2b5189f1ed8358eb51619e4fdc6db676"
+    },
+    "gabarits/modele-conference.qmd": {
+      "checksum": "3af6527da4305ed81a732806022134f4"
+    },
+    "gabarits/modele-enseignement.qmd": {
+      "checksum": "03365b6d6c0eb381b14c942ce0f95558"
+    },
+    "gabarits/modele-note-lecture.qmd": {
+      "checksum": "515e44d0599cd7436dd901bc4545450a"
+    },
+    "gabarits/modele-recherche.qmd": {
+      "checksum": "63b02824635e36a9d9f291fe20ee2d36"
+    },
+    "index.qmd": {
+      "checksum": "ab5cc1ef12ce1accae1ec90410fc4d56"
+    },
+    "lectures/elements/2026-02-01-smith-2024.qmd": {
+      "checksum": "9e524031f538bab17ea8c398336b2436"
+    },
+    "lectures/index.qmd": {
+      "checksum": "d529449f35497061376a853cdf6cc5fb"
+    },
+    "LICENSE": {
+      "checksum": "f601e0fc7b486999800d9b8c8ce62f7e"
+    },
+    "profil.qmd": {
+      "checksum": "fffb7f1a41aff4e05c984f3f2c83c6e7"
+    },
+    "README.md": {
+      "checksum": "09f0a03f71afe5bc039a43cfd8b09518"
+    },
+    "recherche/elements/2026-01-10-etude-pilote.qmd": {
+      "checksum": "2e8ff89af7769484c8e6a48cb01bc942"
+    },
+    "recherche/index.qmd": {
+      "checksum": "b23ecbe7a7fad874d2954b281a821979"
+    },
+    "scripts/apa_reference.R": {
+      "checksum": "05857da2d4e561c0115a8b5e959e0e27"
+    },
+    "styles-dark.scss": {
+      "checksum": "07af11f2cf95309db4e50a2d4b94d2dc"
+    },
+    "styles.scss": {
+      "checksum": "2bd83784cf50cfcb280cd12d6945a6cb"
+    }
+  },
+  "users": null
+}
