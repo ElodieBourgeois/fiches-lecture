@@ -2,7 +2,7 @@
 title: "Auxiliaire d'enseignement - KIN701"
 date: 2025-09-01
 categories: [cycle superieur, biomecanique]
-resume: "Encadrement des laboratoires et correction de travaux."
+abstract: "Encadrement des laboratoires et correction de travaux."
 ---
 
 ## Role

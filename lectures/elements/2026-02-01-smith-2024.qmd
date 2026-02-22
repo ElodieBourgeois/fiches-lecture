@@ -5,8 +5,7 @@ annee_publication: 2021
 doi: "10.1177/00187208211034271"
 date_lecture: 2026-02-01
 categories: [PPSHV, travail, sédentarité]
-resume: Computer Prompt Software
-title-block-banner: true
+abstract: Computer Prompt Software
 ---
 
 ## Référence complète

@@ -5,7 +5,7 @@ annee_publication: 20XX
 doi: "10.xxxx/xxxxx"
 date_lecture: 2026-01-01
 categories: [cat1, cat2]
-resume: "1 phrase qui rappelle l'article."
+abstract: "1 phrase qui rappelle l'article."
 ---
 
 ## Référence complète

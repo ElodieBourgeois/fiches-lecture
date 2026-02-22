@@ -2,7 +2,7 @@
 title: "Titre du projet"
 date: 2026-01-01
 categories: [activite physique, biomecanique]
-resume: "Resume en une phrase du projet."
+abstract: "Resume en une phrase du projet."
 ---
 
 <!-- Exemples: performance sportive, neurosciences, readaptation, vieillissement -->

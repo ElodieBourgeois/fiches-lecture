@@ -2,7 +2,7 @@
 title: "Titre de l'experience d'enseignement"
 date: 2026-01-01
 categories: [laboratoire, premier cycle]
-resume: "Resume de votre role pedagogique."
+abstract: "Resume de votre role pedagogique."
 ---
 
 <!-- Exemples: cours magistral, evaluation, mentorat, pedagogie active -->

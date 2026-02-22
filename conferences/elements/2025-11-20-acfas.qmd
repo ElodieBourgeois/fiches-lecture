@@ -2,7 +2,7 @@
 title: "Communication orale - ACFAS"
 date: 2025-11-20
 categories: [congres, communication orale]
-resume: "Effets d'une intervention motrice de 12 semaines sur la capacite fonctionnelle."
+abstract: "Effets d'une intervention motrice de 12 semaines sur la capacite fonctionnelle."
 ---
 
 ## Evenement
