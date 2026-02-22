@@ -62,3 +62,26 @@ A chaque `git push`, vous pouvez relancer un redeploiement dans Connect Cloud.
 quarto preview   # apercu local
 quarto render    # rendu complet
 ```
+
+## Commande finito (sauvegarde Git simplifiee)
+
+Une commande `finito` est fournie a la racine du projet pour les etudiantes/etudiants qui ne veulent pas gerer Git manuellement.
+
+Ce que fait `finito`:
+- verifie que vous etes bien dans un repo Git sur la branche `main`
+- fait un `pull --rebase --autostash` defensif
+- ajoute tous les fichiers modifies
+- cree un commit avec un message fixe
+- pousse sur `origin/main`
+
+Utilisation:
+
+```bash
+bash finito
+```
+
+Si vous etes sur macOS/Linux (ou Git Bash) et que le fichier est executable:
+
+```bash
+./finito
+```

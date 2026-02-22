@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+
+set -u
+
+COMMIT_MESSAGE="finito: sauvegarde etudiant"
+
+info() {
+  echo "INFO: $1"
+}
+
+error() {
+  echo "ERREUR: $1" >&2
+}
+
+abort() {
+  error "$1"
+  exit 1
+}
+
+if ! command -v git >/dev/null 2>&1; then
+  abort "Git n'est pas installe ou introuvable. Installez Git puis recommencez."
+fi
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  abort "Cette commande doit etre lancee dans le dossier du projet Git."
+fi
+
+current_branch="$(git symbolic-ref --quiet --short HEAD 2>/dev/null || true)"
+if [[ -z "$current_branch" ]]; then
+  abort "Impossible de detecter la branche (etat detache). Revenez sur la branche main puis relancez finito."
+fi
+
+if [[ "$current_branch" != "main" ]]; then
+  abort "Vous etes sur la branche '$current_branch'. Passez sur 'main' avant d'utiliser finito."
+fi
+
+if ! git remote get-url origin >/dev/null 2>&1; then
+  abort "Le depot distant 'origin' est introuvable. Configurez le remote GitHub puis relancez finito."
+fi
+
+info "Verification des mises a jour distantes (pull --rebase --autostash)..."
+if ! git pull --rebase --autostash origin main; then
+  error "Le pull a echoue."
+  error "Cause possible: conflit de fusion ou probleme reseau."
+  error "Ouvrez GitHub Desktop/RStudio pour resoudre les conflits, puis relancez finito."
+  exit 1
+fi
+
+info "Preparation des fichiers modifies..."
+if ! git add -A; then
+  abort "Impossible de preparer les fichiers (git add -A). Verifiez les droits d'ecriture."
+fi
+
+if git diff --cached --quiet; then
+  info "Aucun changement local a enregistrer. Rien a commit."
+  info "Votre travail est deja a jour."
+  exit 0
+fi
+
+info "Creation du commit..."
+if ! git commit -m "$COMMIT_MESSAGE"; then
+  abort "Le commit a echoue. Verifiez l'etat avec 'git status' puis recommencez."
+fi
+
+info "Envoi vers GitHub (push origin main)..."
+if ! git push origin main; then
+  error "Le push a echoue."
+  error "Cause possible: authentification GitHub, probleme reseau, ou nouveaux commits distants."
+  error "Refaites un pull, puis relancez finito."
+  exit 1
+fi
+
+echo "SUCCES: Travail enregistre et envoye sur GitHub."
+echo "Message de commit utilise: \"$COMMIT_MESSAGE\""
