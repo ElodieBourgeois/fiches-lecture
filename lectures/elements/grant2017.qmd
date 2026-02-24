@@ -3,39 +3,14 @@ title: "Personal Projects and Organizational Lives"
 author: "Adam M. Grant"
 annee_publication: 2017
 doi: "10.xxxx/xxxxx"
-date_lecture: 2026-01-01
+date_lecture: 2026-02-24
 categories: [cat1, cat2]
 abstract: "Turn your job into personal projects"
 ---
 
 ## Référence complète
 
-```{r}
-#| label: ref-apa
-#| echo: false
-#| message: false
-#| warning: false
-#| results: asis
-
-script_candidates <- c(
-  "scripts/apa_reference.R",
-  "../scripts/apa_reference.R",
-  "../../scripts/apa_reference.R"
-)
-
-script_path <- script_candidates[file.exists(script_candidates)][1]
-
-if (is.na(script_path)) {
-  cat("Script introuvable: scripts/apa_reference.R\n")
-} else {
-  source(script_path)
-
-  metadata <- tryCatch(rmarkdown::metadata, error = function(e) list())
-  doi <- if (!is.null(metadata$doi)) metadata$doi else NULL
-
-  print_apa7_from_doi(doi)
-}
-```
+Grant, A. M., Little, B. R., & Phillips, S. D. (2017). Personal projects and organizational lives. In B. R. Little, K. Salmela-Aro, & S. D. Phillips (Eds.), Personal project pursuit: Goals, action, and human flourishing (pp. 221–241). Psychology Press.
 
 ## Résumé
 

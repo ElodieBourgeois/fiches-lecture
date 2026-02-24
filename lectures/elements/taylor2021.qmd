@@ -3,7 +3,7 @@ title: "Computer Prompt Software to Reduce Sedentary Behavior and Promote Physic
 author: Wendell C. Taylor
 annee_publication: 2021
 doi: "10.1177/00187208211034271"
-date_lecture: 2026-02-01
+date_lecture: 2026-02-17
 categories: [PPSHV, travail, sédentarité]
 abstract: Computer Prompt Software
 ---

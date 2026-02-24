@@ -10,24 +10,49 @@ abstract: "Recommandations en PPSHV"
 
 ## Référence complète
 
+Comité scientifique de Kino-Québec. (2019). L’activité physique au travail : des bienfaits pour tous – Savoir et agir. Québec : Ministère de l’Éducation et de l’Enseignement supérieur.
 
 ## Résumé
 
 ### Objectif de lecture
 
-
+Comprendre les bénéfices de l’activité physique en milieu de travail et identifier des arguments, leviers organisationnels et pistes d’intervention pertinents pour la promotion des saines habitudes de vie (PSHV) en contexte professionnel.
 
 ### Messages clés
 
+Une majorité d’adultes québécois ne bougent pas suffisamment, et la sédentarité au travail constitue un enjeu majeur de santé publique.
 
+La pratique régulière d’activités physiques en milieu de travail est associée à une réduction de l’absentéisme, du présentéisme et des coûts liés à la santé.
+
+Les bienfaits de l’activité physique dépassent la santé physique et touchent la santé psychologique, les fonctions cognitives et les compétences sociales.
+
+Le climat de travail et la culture organisationnelle jouent un rôle clé : les pauses actives en groupe favorisent la convivialité, le soutien social et l’engagement.
+
+La flexibilité de l’horaire, la réduction du stress et le soutien de la direction sont des déterminants centraux de l’adoption de comportements actifs.
+
+Réduire la sédentarité ne nécessite pas nécessairement de l’activité intense, mais plutôt des interruptions fréquentes et du mouvement léger.
+
+Le plaisir et une programmation à long terme sont essentiels au maintien durable de la pratique.
+
+Les incitatifs financiers peuvent motiver, mais ne rejoignent pas nécessairement les personnes les plus inactives sans accompagnement.
 
 ### Utilité pour mon projet
 
+Ce document fournit des arguments solides pour justifier la PSHV en milieu de travail, tant du point de vue de la santé que de la performance organisationnelle.
 
+Il met en évidence l’importance de considérer la culture organisationnelle et le soutien de la direction.
+
+Il renforce l’idée que la PSHV peut agir simultanément sur la santé physique, mentale et sociale des employés.
 
 ### À vérifier ensuite
 
+Approfondir la responsabilité organisationnelle face aux effets de la sédentarité, en parallèle avec les enjeux de SST.
 
+Explorer le lien entre stress au travail, activité physique et recommandations d’entraînement selon le niveau de stress.
+
+Examiner l’efficacité réelle des incitatifs financiers chez les populations inactives.
+
+Analyser comment les principes de la PSHV peuvent être intégrés dans une approche par projets personnels et dans l’entretien motivationnel.
 
 ## Citations
 
