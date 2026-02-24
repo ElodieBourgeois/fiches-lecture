@@ -1,0 +1,73 @@
+---
+title: "Well-doing: Personal projects and the quality of lives"
+author: "Bryan R. Little"
+annee_publication: 2014
+doi: "10.1177/1477878514545847"
+date_lecture: 2026-02-24
+categories: [cat1, cat2]
+abstract: "Your personality is what you do"
+---
+
+## Référence complète
+
+```{r}
+#| label: ref-apa
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+script_candidates <- c(
+  "scripts/apa_reference.R",
+  "../scripts/apa_reference.R",
+  "../../scripts/apa_reference.R"
+)
+
+script_path <- script_candidates[file.exists(script_candidates)][1]
+
+if (is.na(script_path)) {
+  cat("Script introuvable: scripts/apa_reference.R\n")
+} else {
+  source(script_path)
+
+  metadata <- tryCatch(rmarkdown::metadata, error = function(e) list())
+  doi <- if (!is.null(metadata$doi)) metadata$doi else NULL
+
+  print_apa7_from_doi(doi)
+}
+```
+
+## Résumé
+
+### Objectif de lecture
+
+Mieux comprendre l'approche par projet personnel et trouver des convergences/divergences avec les interventions en kinésiologie.
+
+### Messages clés
+
+
+
+### Utilité pour mon projet
+
+
+
+### À vérifier ensuite
+
+
+
+## Citations
+
+### p.330
+
+Réflexion
+
+> For reasons that I elaborate in what follows, I believe that trait measures of the ‘having’ aspects of personality, while providing a useful perspective on aspects of the good life, are unable to address some of the subtle and critical factors that arise when we are trying to live happy and moral lives. The ‘doing’ aspect of personality is studied by personality researchers who focus upon an individual’s action in context, such as their personal projects (Little, 1983). Personal projects are assumed not only to reflect and express individual’s personalities, but they also implicate a set of contextual features that are missing in the trait approach.
+
+### p.xxx-xxx
+
+Réflexion
+
+> Personal projects are personally salient to the extent that
+they stand out as actions for which you have some volitional investment: the difference,
+we might say, between a calculated wink and an automatic blink. And personal projects
+always take place in context.
