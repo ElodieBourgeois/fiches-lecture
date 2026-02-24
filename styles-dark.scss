@@ -19,6 +19,13 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
+/* Justify running text in page content only (not navbar/sidebar UI). */
+main.content :where(p, li, blockquote) {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .hero {
   background: linear-gradient(135deg, #2c220f, #17130a);
   border: 1px solid #4a3a1d;

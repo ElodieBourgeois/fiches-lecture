@@ -65,7 +65,7 @@ their contexts. That unit is the personal project.
 
 ### p.222
 
-Le projet personnel se situe à un niveau entre la tâche et l'emploi global, et son définis de manière subjective par l'individu (pertinence personnelle)
+Le projet personnel se situe à un niveau entre la tâche et l'emploi global, et est défini de manière subjective par l'individu (pertinence personnelle)
 
 > In organizational settings, we propose that the personal project offers
 advantages over traditional units of measurement of work processes
