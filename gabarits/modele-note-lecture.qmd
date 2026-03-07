@@ -3,7 +3,7 @@ title: "Titre"
 author: "Auteur"
 annee_publication: 20XX
 doi: "10.xxxx/xxxxx"
-date_lecture: 2026-01-01
+date_lecture: xxxx-xx-xx
 categories: [cat1, cat2]
 abstract: "1 phrase qui rappelle l'article."
 ---
